@@ -92,10 +92,10 @@ int main(){
     RabinKarpAlgo rk;
 
     // arguments for rabin_karp_implementation that reads files: word, file
-    rk.rabin_karp_implementation("Pink","sample.txt");
+    rk.rabin_karp_implementation("Pink","src/sample.txt");
     
     // arguments for rabin_karp: word, line, line_number
     // rk.rabin_karp("","",0);
-    
+
     return 0;
 }
