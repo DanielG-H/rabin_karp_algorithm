@@ -46,7 +46,7 @@ class RabinKarpAlgo{
                 if (hashed_palabra == hashed_window){
                     indexes = make_tuple(slider, numero_linea);
                     list_of_instances.push_back(indexes);
-                    cout << "index: " << slider << " " << "line: " << numero_linea;
+                    cout << "index: " << slider << " " << "line: " << numero_linea << endl;
                 }
                 
                 hashed_window = hashed_window - (linea[slider] * hash_pow);
